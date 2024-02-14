@@ -1,0 +1,5 @@
+train: C:\Users\Abdullah\Downloads\abd\dataset\Face Mask.v10-face-mask.yolov8\train.txt
+val: C:\Users\Abdullah\Downloads\abd\dataset\Face Mask.v10-face-mask.yolov8\valid.txt
+
+nc: 3
+names: ['mask_weared_incorrect', 'with_mask', 'without_mask']

@@ -1,0 +1,8 @@
+Model summary (fused): 168 layers, 3006233 parameters, 0 gradients, 8.1 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 6/6 [00:01<00:00,  3.25it/s]
+                   all        170        855       0.88      0.642      0.773      0.514
+ mask_weared_incorrect        170         20      0.805        0.5      0.634      0.443
+             with_mask        170        715      0.963        0.8      0.927      0.622
+          without_mask        170        120      0.872      0.625      0.758      0.475
+Speed: 0.5ms preprocess, 2.3ms inference, 0.0ms loss, 1.5ms postprocess per image
+Results saved to runs\detect\train
